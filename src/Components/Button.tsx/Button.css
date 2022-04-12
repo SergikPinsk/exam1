@@ -1,0 +1,15 @@
+.click {
+    width: 260px;
+    border: 2px solid aqua ;
+    border-radius: 7px;
+    text-align: center;
+    margin: 6px;
+    margin-left: 18px;
+    background-color: rgb(74, 75, 74);
+}
+.click button {
+    margin: 20px;
+    background-color: aqua;
+    border-radius: 7px;
+    width: 70px;
+}

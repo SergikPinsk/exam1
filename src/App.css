@@ -1,0 +1,8 @@
+.App {
+  width: 300px;
+
+  border: 1px solid black;
+  background-color: rgb(74, 75, 74);
+  margin: 0 auto;
+  border-radius: 8px;
+}

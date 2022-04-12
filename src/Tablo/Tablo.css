@@ -1,0 +1,17 @@
+.tablo {
+    width: 260px;
+    border: 1px solid aqua;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 15px;
+    background-color: aqua;
+    
+}
+
+.tablo h3 {
+    text-align: center;
+}
+
+ .active {
+    color: red;
+}
