@@ -29,8 +29,13 @@ function App() {
 
     }
     const onChangeHandlerMin = (event: ChangeEvent<HTMLInputElement>) => {
-        setLokalMin(event.currentTarget.value)
-        setDisabled(false)
+        if (+event.currentTarget.value < 0 ) {
+            setDisabled(true)
+        } else {
+            setLokalMin(event.currentTarget.value)
+            setDisabled(false)
+        }
+
         debugger
     }
     const ChangeNumber = () => {
